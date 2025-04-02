@@ -1,53 +1,8 @@
 import React from "react";
-import { FcFolder } from "react-icons/fc";
-import { FaReact } from "react-icons/fa";
 import { Link } from "react-router";
-import { RiTailwindCssFill } from "react-icons/ri";
+import ToolsList from "../data/ToolsList";
 
-const tools = [
-  {
-    folderName: "Web Development",
-    file: [
-      {
-        name: "React Docs ",
-        link: "https://react.dev/learn",
-        icon: <FaReact style={{ color: "blue" }} />,
-      },
-      {
-        name: "React Slick",
-        link: "https://react-slick.neostack.com/docs/get-started",
-        icon: <FaReact />,
-      },
-      {
-        name: "Tailwind Docs",
-        link: "https://tailwindcss.com/",
-        icon: <RiTailwindCssFill />,
-      },
-    ],
-  },
-  {
-    folderName: "Creative",
-    file: [
-      {
-        name: "Unsplash",
-        link: "https://unsplash.com/",
-        icon: <FcFolder />,
-      },
-      {
-        name: "Pexels",
-        link: "https://www.pexels.com/",
-        icon: <FcFolder />,
-      },
-      {
-        name: "Canva",
-        link: "https://www.canva.com/",
-        icon: <FcFolder />,
-      },
-    ],
-  },
-];
-
-tools.forEach((folder) => {
+ToolsList.forEach((folder) => {
   folder.file.sort((a, b) => a.name.localeCompare(b.name));
 });
 
@@ -56,7 +11,7 @@ function Tools() {
     <div className="h-screen w-full bg-bgColor">
       <div className="container mx-auto p-20 text-amber-50">
         <div className="">
-          {tools.map((folder) => (
+          {ToolsList.map((folder) => (
             <div
               key={folder.folderName}
               className=" pl-2 pb-5 pt-20 text-4xl shadow-[0px_22px_16px_-17px_rgba(59,_130,_246,_0.5)]"
