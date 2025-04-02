@@ -1,15 +1,15 @@
 import React from "react";
-import Header from "./components/Header";
 import Hero from "./pages/Home";
 import Tools from "./pages/Tools";
 import Contact from "./pages/About";
 import { Routes, Route } from "react-router";
 import Footer from "./components/Footer";
+import NavMenu from "./components/NavMenu";
 
 function App() {
   return (
     <div>
-      <Header />
+      <NavMenu />
       <Routes>
         <Route path="/" element={<Hero />} />
         <Route path="/tools" element={<Tools />} />

@@ -26,7 +26,7 @@ const ResourceCard = ({ icon, title, description, items }) => {
             key={index}
             className="flex  items-center group/item hover:bg-gray-50 dark:hover:bg-gray-700/50 p-2 rounded-lg transition-colors duration-200"
           >
-            <span className="text-blue-600 dark:text-blue-400 mr-2  transition-transform group-hover/item:rotate-90 z-10">
+            <span className="text-blue-600 dark:text-blue-400 mr-2  transition-transform group-hover/item:rotate-90 ">
               →
             </span>
             <span className="text-sm">{item}</span>
