@@ -32,19 +32,6 @@ function Tools() {
             </div>
           ))}
         </div>
-        {/*
-          
-          <div className="grid grid-cols-6 gap-4">
-            {tools.map((obj) => (
-              <Link to={obj.link} target={"_blank"}>
-                {" "}
-                <p className="inline-flex items-center gap-1">
-                  {obj.icon} {obj.name}
-                </p>
-              </Link>
-            ))}
-          </div>
-        </div> */}
       </div>
     </div>
   );
