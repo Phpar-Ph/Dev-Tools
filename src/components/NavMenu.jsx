@@ -52,19 +52,16 @@ function NavMenu() {
         {/* LOGO */}
         <NavLink to="/">
           {" "}
-          <div className="relative group animate-float">
-            {/* <div className="absolute -inset-0.5 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-lg blur opacity-60 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-gradient"></div> */}
-            <div className="relative flex items-center px-2 py-1 bg-white dark:bg-bgLogo rounded-lg leading-none">
-              <span className="ml-2 text-xl font-bold animate-shine">
-                {"<devTools/>"}
-              </span>
-            </div>
+          <div className="relative flex items-center px-2 py-1 b">
+            <span className="ml-2 text-xl font-bold animate-shine">
+              {"<devTools/>"}
+            </span>
           </div>
         </NavLink>
 
         {/* MENU */}
         <div
-          className="flex gap-4 justify-center items-center
+          className="flex gap-12 justify-center items-center
       "
         >
           {navData.map((item, i) => (
