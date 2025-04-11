@@ -17,16 +17,12 @@ function Tools() {
               className=" pl-2 pb-5 pt-20 text-4xl shadow-[0px_22px_16px_-17px_rgba(59,_130,_246,_0.5)] font-bold"
             >
               <h1>{folder.folderName}</h1>
-              <div className="grid grid-cols-4 gap-2 p-10 text-left">
+              <div className="grid grid-cols-4 gap-4 p-10 text-left">
                 {folder.file.map((sub) => (
                   <div key={sub.name} className=" ">
                     <Link to={sub.link} target={"_blank"}>
-                      <p className="flex items-center text-xl gap-1 font-medium text-gray-400 hover:text-amber-50 hover:scale-105 transition-transform duration-300 ease-in-out">
-                        {sub.icon ? (
-                          sub.icon
-                        ) : (
-                          <img src={sub.image} className="h-5 w-5" />
-                        )}
+                      <p className="flex items-center text-2xl gap-2 font-medium text-gray-400 hover:text-amber-50 hover:scale-105 transition-transform duration-300 ease-in-out">
+                        {<img src={sub.icon} className="h-5 w-5" />}
                         {sub.name}
                       </p>
                     </Link>
