@@ -23,18 +23,13 @@ const ToolsList = [
         icon: "https://icon.horse/icon/react-hook-form.com",
       },
       {
-        name: "React Slick",
-        link: "https://react-slick.neostack.com/",
-        icon: "https://icon.horse/icon/react-slick.neostack.com",
-      },
-      {
         name: "React",
         link: "https://react.dev/learn",
         icon: "https://icon.horse/icon/react.dev",
       },
       {
         name: "EmailJS",
-        link: "https://www.emailjs.com/docs/integrations/reactjs/installation/",
+        link: "https://www.emailjs.com/",
         icon: "https://icon.horse/icon/emailjs.com",
       },
       {
@@ -54,7 +49,7 @@ const ToolsList = [
       },
       {
         name: "Lucide",
-        link: "https://lucide.dev/docs/",
+        link: "https://lucide.dev/",
         icon: "https://icon.horse/icon/lucide.dev",
       },
       {
@@ -233,24 +228,14 @@ const ToolsList = [
         icon: "https://icon.horse/icon/scrollmagic.io",
       },
       {
-        name: "Motion One",
-        link: "https://motion.dev/",
-        icon: "https://icon.horse/icon/motion.dev",
-      },
-      {
         name: "Lottie React",
         link: "https://lottiereact.com/components/Lottie#interaction-methods",
         icon: "https://icon.horse/icon/lottiereact.com",
       },
       {
-        name: "Matter.js",
-        link: "https://brm.io/matter-js/docs/",
-        icon: "https://icon.horse/icon/brm.io",
-      },
-      {
         name: "Framer Motion",
-        link: "https://framermotion.framer.website/",
-        icon: "https://icon.horse/icon/framermotion.framer.website",
+        link: "https://motion.dev/",
+        icon: "https://icon.horse/icon/motion.dev",
       },
     ],
   },
@@ -303,7 +288,7 @@ const ToolsList = [
         icon: "https://icon.horse/icon/freesvg.org",
       },
       {
-        name: "Free Vectors - Mountains",
+        name: "Free Vectors",
         link: "https://www.freevectors.net/free-vectors/mountains",
         icon: "https://icon.horse/icon/freevectors.net",
       },
@@ -316,16 +301,6 @@ const ToolsList = [
         name: "JavaScript Info",
         link: "https://javascript.info/",
         icon: "https://icon.horse/icon/javascript.info",
-      },
-      {
-        name: "DevDocs",
-        link: "https://devdocs.io/",
-        icon: "https://icon.horse/icon/devdocs.io",
-      },
-      {
-        name: "Javatpoint",
-        link: "https://www.javatpoint.com/",
-        icon: "https://icon.horse/icon/javatpoint.com",
       },
       {
         name: "W3Schools",
@@ -429,7 +404,7 @@ const ToolsList = [
       },
       {
         name: "Wallpaper Flare",
-        link: "https://www.wallpaperflare.com/firewatch-video-game-art-minimalism-simple-wallpaper-yshyt/download",
+        link: "https://www.wallpaperflare.com/",
         icon: "https://icon.horse/icon/wallpaperflare.com",
       },
       {
@@ -448,7 +423,7 @@ const ToolsList = [
         icon: "https://icon.horse/icon/morguefile.com",
       },
       {
-        name: "Awesome Stock Resources",
+        name: "Awesome Stock",
         link: "https://github.com/neutraltone/awesome-stock-resources",
         icon: "https://icon.horse/icon/github.com",
       },
@@ -578,11 +553,6 @@ const ToolsList = [
         link: "https://gradienty.codes/",
         icon: "https://icon.horse/icon/gradienty.codes",
       },
-      {
-        name: "Haikei Generators",
-        link: "https://haikei.app/generators/",
-        icon: "https://icon.horse/icon/haikei.app",
-      },
     ],
   },
   {
@@ -685,12 +655,12 @@ const ToolsList = [
     folderName: "Design Inspiration & Resources",
     file: [
       {
-        name: "Dribbble (Popular Shots)",
+        name: "Dribbble",
         link: "https://dribbble.com/shots/popular",
         icon: "https://icon.horse/icon/dribbble.com",
       },
       {
-        name: "Awwwards (Design Awards)",
+        name: "Awwwards",
         link: "https://www.awwwards.com/",
         icon: "https://icon.horse/icon/awwwards.com",
       },
@@ -700,7 +670,7 @@ const ToolsList = [
         icon: "https://icon.horse/icon/designsystems.com",
       },
       {
-        name: "Figma Files (Recents & Sharing)",
+        name: "Figma Files",
         link: "https://www.figma.com/files/team/1417881280011498320/recents-and-sharing?fuid=1417881278194020147",
         icon: "https://icon.horse/icon/figma.com",
       },
