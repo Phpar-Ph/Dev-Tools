@@ -76,7 +76,7 @@ function NavMenu() {
             </NavLink>
           ))}
           {/* Dark mode ICON */}
-          <div className="">
+          {/* <div className="">
             <button
               onClick={() => setIsDark(!isDark)}
               className="p-2 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700  transform hover:rotate-45 transition-transform   "
@@ -87,7 +87,7 @@ function NavMenu() {
                 <Sun className="h-5 w-5 text-yellow-500" />
               )}
             </button>
-          </div>
+          </div> */}
         </div>
       </div>
     </header>

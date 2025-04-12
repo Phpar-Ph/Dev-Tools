@@ -1,5 +1,6 @@
 import React from "react";
 import { devTools } from "../data/SlideData";
+import { Link } from "react-router";
 
 const infiniteDevTools = [...devTools, ...devTools];
 function Footer() {
@@ -15,9 +16,12 @@ function Footer() {
         >
           {infiniteDevTools.map((tool, index) => (
             <div key={index} className="devTools-card">
-              <span className="text-lg font-semibold animate-shine">
-                {tool}
-              </span>
+              <Link to={tool.link} target={"_blank"}>
+                <span className="text-lg font-semibold animate-shine flex items-center gap-2 w-28 justify-center">
+                  {<img src={tool.icon} className="h-5 w-5" />}
+                  {tool.name}
+                </span>
+              </Link>
             </div>
           ))}
         </div>
@@ -30,9 +34,12 @@ function Footer() {
         >
           {infiniteDevTools.map((tool, index) => (
             <div key={index} className="devTools-card">
-              <span className="text-lg font-semibold animate-shine">
-                {tool}
-              </span>
+              <Link to={tool.link} target={"_blank"}>
+                <span className="text-lg font-semibold animate-shine flex items-center gap-2 w-28 justify-center">
+                  {<img src={tool.icon} className="h-5 w-5" />}
+                  {tool.name}
+                </span>
+              </Link>
             </div>
           ))}
         </div>

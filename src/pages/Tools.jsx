@@ -14,7 +14,7 @@ function Tools() {
           {ToolsList.map((folder) => (
             <div
               key={folder.folderName}
-              className=" pl-2 pb-5 pt-20 text-4xl shadow-[0px_22px_16px_-17px_rgba(59,_130,_246,_0.5)] font-bold"
+              className=" pl-2 pb-5 pt-10 text-4xl shadow-[0px_22px_16px_-17px_rgba(59,_130,_246,_0.5)] font-bold"
             >
               <h1>{folder.folderName}</h1>
               <div className="grid grid-cols-4 gap-4 p-10 text-left">
