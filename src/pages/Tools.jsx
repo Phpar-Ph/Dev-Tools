@@ -22,7 +22,15 @@ function Tools() {
                   <div key={sub.name} className=" ">
                     <Link to={sub.link} target={"_blank"}>
                       <p className="flex items-center text-2xl gap-2 font-medium text-gray-400 hover:text-amber-50 hover:scale-105 transition-transform duration-300 ease-in-out">
-                        {<img src={sub.icon} className="h-5 w-5" />}
+                        {sub.icon ? (
+                          <img
+                            src={sub.icon}
+                            className="h-5 w-5"
+                            alt={sub.name}
+                          />
+                        ) : (
+                          sub.name
+                        )}
                         {sub.name}
                       </p>
                     </Link>

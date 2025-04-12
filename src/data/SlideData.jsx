@@ -134,4 +134,24 @@ export const devTools = [
     link: "https://developer.apple.com/swift/",
     icon: "https://icon.horse/icon/apple.com",
   },
+  {
+    name: "React Native",
+    link: "https://reactnative.dev/",
+    icon: "https://icon.horse/icon/reactnative.dev",
+  },
+  {
+    name: "Flutter",
+    link: "https://flutter.dev/",
+    icon: "https://icon.horse/icon/flutter.dev",
+  },
+  {
+    name: "Kotlin",
+    link: "https://kotlinlang.org/",
+    icon: "https://icon.horse/icon/kotlinlang.org",
+  },
+  {
+    name: "Swift",
+    link: "https://developer.apple.com/swift/",
+    icon: "https://icon.horse/icon/apple.com",
+  },
 ];
