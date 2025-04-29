@@ -2,12 +2,12 @@ import React from "react";
 import Footer from "../components/Footer";
 import Card from "../components/HeroCard";
 import CardTools from "../components/CardTools";
-import { ArrowRight, Github, Linkedin, Twitter } from "lucide-react";
+import { ArrowRight, Github, Linkedin } from "lucide-react";
 import { Link } from "react-router";
 
 function Hero() {
   return (
-    <main className="bg-gradient-to-b from-bgColor to-gray-900 text-amber-50 min-h-screen w-full">
+    <main className="bg-bgColor text-amber-50 h-full w-full">
       <div className="container mx-auto px-4">
         {/* Hero Section */}
         <div className="pt-32 pb-20 ">
@@ -74,7 +74,7 @@ function Hero() {
             </div>
 
             {/* Code Card */}
-            <div className="w-1/2 flex justify-center items-center">
+            <div className="w-1/2 flex justify-center items-center ">
               <Card />
             </div>
           </div>

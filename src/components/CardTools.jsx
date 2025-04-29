@@ -117,8 +117,8 @@ const resources = [
 function CardTools() {
   return (
     <div className="">
-      <div className="px-20 mb-10 mt-10 ">
-        <section className="grid grid-cols-1 md:grid-cols-4 gap-8 ">
+      <div className=" mb-10 mt-10 ">
+        <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 ">
           {resources.map((resource, index) => (
             <ResourceCard
               key={index}

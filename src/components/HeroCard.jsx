@@ -3,7 +3,7 @@ import { Code, Sparkles } from "lucide-react";
 
 function Card() {
   return (
-    <div className="lg:w-1/2">
+    <div className="w-96 ">
       <div className="relative font-Fira">
         <div className="hero-gradient w-64 h-64 rounded-full filter blur-3xl opacity-20 absolute -top-10 -right-10 animate-pulse-slow"></div>
         <div className="glass-card p-6 animate-float">

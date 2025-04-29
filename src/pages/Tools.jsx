@@ -1,5 +1,5 @@
 import React from "react";
-import ToolsList from "../data/ToolsList";
+import { ToolsList } from "../data/ToolsList";
 import { Link } from "react-router";
 
 ToolsList.forEach((folder) => {
@@ -8,11 +8,21 @@ ToolsList.forEach((folder) => {
 
 function Tools() {
   return (
-    <div className="min-h-screen w-full bg-gradient-to-b from-bgColor to-gray-900">
+    <div className="h-full w-full bg-bgColor">
       <div className="container mx-auto px-4  pt-20 py-12 text-amber-50">
-        <h1 className="text-5xl font-bold text-center mb-16 bg-clip-text text-transparent bg-gradient-to-r from-amber-50 to-blue-400">
+        <h1 className="text-5xl font-bold text-center mb-16 mt-4 bg-clip-text text-transparent bg-gradient-to-r from-amber-50 to-blue-400">
           Development Tools
         </h1>
+
+        {/* <div className="mb-8 flex justify-center">
+          <input
+            type="text"
+            value={inputValue}
+            placeholder="Search tools"
+            onChange={inputHandler}
+            className="w-1/2 bg-white/5 backdrop-blur-sm rounded-full py-2 px-4 text-2xl text-amber-50"
+          />
+        </div> */}
 
         <div className="space-y-20">
           {ToolsList.map((folder) => (

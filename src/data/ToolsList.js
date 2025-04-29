@@ -1,4 +1,4 @@
-const ToolsList = [
+export const ToolsList = [
   {
     folderName: "React Libraries & Frameworks",
     file: [
@@ -722,5 +722,3 @@ const ToolsList = [
     ],
   },
 ];
-
-export default ToolsList;

@@ -18,16 +18,7 @@ import {
 import { navData } from "../data/NavData";
 
 function NavMenu() {
-  const [isDark, setIsDark] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
-
-  useEffect(() => {
-    if (isDark) {
-      document.documentElement.classList.add("dark");
-    } else {
-      document.documentElement.classList.remove("dark");
-    }
-  }, [isDark]);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -87,18 +78,15 @@ function NavMenu() {
             ))}
 
             {/* Social Links */}
-            <div className="flex items-center gap-3 ml-4 pl-4 border-l border-gray-700">
-              {/* Dark mode toggle */}
-              <button
-                onClick={() => setIsDark(!isDark)}
-                className="p-2 rounded-full bg-gray-800/50 hover:bg-gray-700/50 transition-colors group ml-2"
+            <div className="flex items-center gap-3 ml-4 pl-4 border-l border-gray-700 text-amber-50">
+              <a
+                href="https://github.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-3 bg-gray-800/50 rounded-lg hover:bg-gray-700/50 transition-colors"
               >
-                {isDark ? (
-                  <Moon className="h-4 w-4 text-gray-400 group-hover:text-amber-50 transition-colors" />
-                ) : (
-                  <Sun className="h-4 w-4 text-gray-400 group-hover:text-amber-50 transition-colors" />
-                )}
-              </button>
+                <Github className="h-5 w-5" />
+              </a>
             </div>
           </div>
         </div>

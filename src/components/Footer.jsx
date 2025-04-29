@@ -2,7 +2,7 @@ import React from "react";
 import { devTools } from "../data/SlideData";
 import { Link } from "react-router";
 
-const infiniteDevTools = [...devTools, ...devTools];
+// const infiniteDevTools = [...devTools, ...devTools];
 function Footer() {
   return (
     <div className="w-screen overflow-hidden b py-12 bg-bgColor">
@@ -14,7 +14,7 @@ function Footer() {
             whiteSpace: "nowrap",
           }}
         >
-          {infiniteDevTools.map((tool, index) => (
+          {devTools.map((tool, index) => (
             <div key={index} className="devTools-card">
               <Link to={tool.link} target={"_blank"}>
                 <span className="text-lg font-semibold animate-shine flex items-center gap-2 w-28 justify-center">
@@ -32,7 +32,7 @@ function Footer() {
             whiteSpace: "nowrap",
           }}
         >
-          {infiniteDevTools.map((tool, index) => (
+          {devTools.map((tool, index) => (
             <div key={index} className="devTools-card">
               <Link to={tool.link} target={"_blank"}>
                 <span className="text-lg font-semibold animate-shine flex items-center gap-2 w-28 justify-center">
